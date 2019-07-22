@@ -57,7 +57,6 @@
     "watch": "./node_modules/.bin/webpack-dev-server --hot",
     "publish-patch": "npm run build && npm version patch && npm publish; git push; git push --tags",
     "lint": "eslint --ignore-path .gitignore src/*",
-    "lint:fix": "eslint --ignore-path .gitignore . --fix",
-    "postinstall": "babel --copy-files src --out-dir dist"
+    "lint:fix": "eslint --ignore-path .gitignore . --fix"
   }
 }
